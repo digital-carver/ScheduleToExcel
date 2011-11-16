@@ -1,0 +1,9 @@
+This is just a simple Perl script I wrote, to convert a session agenda from a website into a helpful Excel file. This was written for droidcon 2011 originally.
+
+The important part of the output, for me, is that multiple sessions starting at the same time are placed at the same column, easing the parsing needs on our brains. 
+
+It expects input in a particular format: a text file for each day of the conference, and in each text file, lines starting with times as HH:MM and then containing the session details. 
+
+If the session details ended with (Beginner) or (Intermediate) [as the droidcon agenda did], or contained any other parenthetical content at the end in fact, that would be brough to the beginning.
+
+That's it, and I hope this script serves as a starting point to something useful. 
